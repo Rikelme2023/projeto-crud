@@ -1,4 +1,4 @@
-package br.com.crud.produto.produtos.modelo;
+package br.com.crud.produtos.modelo;
 
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
@@ -16,7 +16,7 @@ public class ProdutoModelo {
 
   @Id
   @GeneratedValue(strategy = GenerationType.IDENTITY)
-  private Long codigo;
+  private Long code;
   private String nome;
   private String marca;
 }

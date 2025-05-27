@@ -1,4 +1,4 @@
-package br.com.crud.produto.produtos.modelo;
+package br.com.crud.produtos.modelo;
 
 import org.springframework.stereotype.Component;
 
